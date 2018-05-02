@@ -56,7 +56,9 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayerView
         }
 
         public void bindPlayer(Player player) {
-
+            playerName = playerName;
+            playerNumber = playerNumber;
+            playerTeam = playerTeam;
         }
     }
 }

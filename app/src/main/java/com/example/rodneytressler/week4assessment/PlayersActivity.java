@@ -24,6 +24,7 @@ public class PlayersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_players);
         ButterKnife.bind(this);
         populateRecyclerView();
+        playerList = 
     }
 
     private void populateRecyclerView() {
